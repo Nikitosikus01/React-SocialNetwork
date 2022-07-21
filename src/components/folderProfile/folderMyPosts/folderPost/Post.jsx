@@ -2,7 +2,7 @@ import React from "react";
 import post from "./Post.module.css"
 
 
-const Post = () =>{
+const Post = (props) =>{
 
 return (
   <div>
@@ -12,10 +12,11 @@ return (
         src="https://bipbap.ru/wp-content/uploads/2021/07/9-1.jpeg"
       ></img>
       post 1
-      <button>like</button>
-      <button>dislike</button>
+      <button> likes:</button>
+      <span>{props.like} </span>
+      <button> dislike:</button>
+      <span>{props.dislike} </span>
     </div>
-    
   </div>
 );
 

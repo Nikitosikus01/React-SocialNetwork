@@ -10,9 +10,9 @@ return (
     <div>My posts:</div>
     <div>New post</div>
 
-    <Post/>
-    <Post/>
-    <Post/>
+    <Post like='14'/>
+    <Post like='7'/>
+    <Post like='1' dislike='4'/>
   </div>
 );
 
