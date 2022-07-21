@@ -6,20 +6,18 @@ const Navbar = () =>{
   return (
     <nav className={Nav.nav}>
       <div>
-        <a>1wwefewevv</a>
+        <a>Profile</a>
       </div>
       <div>
-        <a>2 fefwfe</a>
+        <a>News</a>
       </div>
       <div>
-        <a>3grergrgreg</a>
+        <a>Messages</a>
       </div>
       <div>
-        <a>4re gergregreg</a>
+        <a>Settings</a>
       </div>
-      <div>
-        <a>5r gewg eg rg</a>
-      </div>
+      
     </nav>
   );
 
