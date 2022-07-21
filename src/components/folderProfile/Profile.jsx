@@ -1,11 +1,11 @@
 import React from "react";
-
+import Prof from "./Profile.module.css"
 
 
 const Profile = () =>{
 
 return (
-  <div className="profile">
+  <div className={Prof.profile}>
     <div>
       <img
         className="ImgSky"
